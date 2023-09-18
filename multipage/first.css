@@ -1,0 +1,128 @@
+body{
+    background-color: black;
+}
+/*overall page*/
+.paper{
+    font-size: 25px;
+    width: 950px;
+    height: 2000px;
+    line-height: 30px;
+    color: white;
+    margin: 0 20% 0;
+    padding: 0 0 0 20px;
+    margin: 0 auto;
+}
+.title{
+    text-align: center;
+    color: #43F9D2; 
+    text-shadow: 2px 2px 2px gray;
+    font-family: 'Lobster', cursive; 
+    font-size: 50px; 
+    font-weight: bolder;
+}
+.flexbox{ /*a box for the raw code and console example*/
+    display: flex;
+    background-color: rgb(228, 227, 227);
+    color: black;
+    border: white 8px solid;
+    width: 90%;
+    height: 380px;
+    padding: 0 0 0 10px;
+    margin: 0 auto;
+}
+
+.rawCode{ /*a box for the raw codeexample */
+    border-right: 8px white solid;
+    width: 50%;
+    align-items: center;
+}
+.console{ /*a box for the console display*/
+    padding: 0 0 0 10px;
+}
+.rawCode span, ul span, p span{ /*make html element green*/
+    color: rgb(0, 173, 0);
+}
+dd, .property{ /*make css property red*/
+    color: red;
+}
+.rawCode .value, .value{ /*make css value blue in raw code box*/
+    color: blue;
+}
+
+h2{
+    font-family: 'Roboto Mono', monospace;
+}
+.exception{ /*make h1 dark red as css example*/
+    color: darkred; 
+    text-align: center;
+}
+.console p, ul{ /*make p bigger as css example*/
+    font-size: 25px;
+}
+h4{
+    background-color: #f4d694;
+    height: 9%;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 10px;
+    color:red;
+}
+input{
+    width: 20px;
+    font-size: 17px;
+}
+.quiz{
+    height: 200px;
+    background-color: rgb(226, 222, 222);
+    color: black;
+}
+button{
+    border-radius: 20px;
+    box-shadow: 4px 4px 0 gray;
+    font-size: 14px;
+    width: 14%;
+    height: 40px;
+    background-color: #f4d694;
+}
+button:hover{
+    background-color: #f7bc3dcb;
+}
+.quiz p {
+    font-size: 25px;
+}
+legend{
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    padding: 15px 0 0 0;
+}
+fieldset #property {
+    width: 140px;
+}
+
+/* multiple website*/
+.navProp{
+    float: left;
+}
+li a{
+    display: block;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navBar{
+    background-color: rgb(58, 58, 218);
+    position: fixed;
+    top: 0;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+li a:hover:not(.active){
+    background-color: rgb(0, 183, 255);
+}
+.active{
+    background-color: rgb(0, 183, 255);
+}
